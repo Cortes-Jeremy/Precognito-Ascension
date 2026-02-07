@@ -1,0 +1,17 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+    <Script file="UnitFrame.lua"/>
+
+	<Texture name="MyManaCostPredictionBarTemplate" virtual="true" file="Interface\TargetingFrame\UI-StatusBar">
+		<!-- <Color r="0.0" g="0.447" b="1.0"/> -->
+		<Color r="0.0" g="0.596" b="1.0"/>
+	</Texture>
+
+    <Frame name="ManaCostPredictionTemplate" frameLevel="1" setAllPoints="true" virtual="true">
+        <Layers>
+            <Layer level="BORDER">
+                <Texture name="$parentManaCostPredictionBars" inherits="MyManaCostPredictionBarTemplate"/>
+            </Layer>
+        </Layers>
+    </Frame>
+</Ui>

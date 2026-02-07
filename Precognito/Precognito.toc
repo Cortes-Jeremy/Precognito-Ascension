@@ -1,0 +1,12 @@
+## Interface: 30300
+## Title: Precognito
+## Author: Xyz
+## Notes: discord.gg/CtxPasSQnQ
+## Version: 2.6
+## SavedVariables: PrecognitoDB
+
+libs.xml
+Options.lua
+API\AnimatedHealthLoss.lua
+API\BuilderSpenderFrame.xml
+Frames\UnitFrame.xml
