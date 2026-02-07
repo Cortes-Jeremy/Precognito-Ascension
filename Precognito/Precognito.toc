@@ -1,7 +1,7 @@
 ## Interface: 30300
 ## Title: Precognito
-## Author: Xyz
-## Notes: discord.gg/CtxPasSQnQ
+## Author: Xyz, JC
+## Notes: discord.gg/CtxPasSQnQ, Backported for Project Ascension Bronzebeard
 ## Version: 2.6
 ## SavedVariables: PrecognitoDB
 
